@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Roboto:wght@400;500&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Roboto 500', sans-serif; 
+}
+
+.dados {
+    padding: 20px;
+    font-size: 18px;
+    
+}
+
+.dados input{
+    height: 40px;
+    width: 400px;
+    font-size: 18px;
+    font-family:'Roboto', sans-serif; /* ajeitar fonte */
+    
+}
+
+.dados button{
+    height: 40px;
+    width: 400px;
+    font-size: 18px;
+    font-family: 'Kanit', sans-serif; /* ajeitar fonte */
+    
+}
+
+.print {
+    display: block; /* deixar como none */
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 600px;
+    
+}
+
+.print h1 {
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    
+}
+
+.print h2 {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.assinatura {
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+@media print {
+    .print {
+        display: block;
+    }
+
+    .dados {
+        display: none;
+    }
+}
