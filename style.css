@@ -18,6 +18,9 @@
     width: 400px;
     font-size: 18px;
     font-family:'Roboto', sans-serif; /* ajeitar fonte */
+    border-width:2px;
+    border-bottom-color: gray;
+    border-bottom-width: 5px;
     
 }
 
@@ -26,6 +29,7 @@
     width: 400px;
     font-size: 18px;
     font-family: 'Kanit', sans-serif; /* ajeitar fonte */
+    border-radius: 30px;
     
 }
 
